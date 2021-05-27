@@ -1,0 +1,682 @@
+body {
+   margin: 0;
+   word-spacing: 1.2;
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   font-size: 24px;
+   line-height: 1.47;
+   color: #614b3e;
+}
+
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main */
+.main {
+    width: 100%;
+    height: 848px;
+    margin-top: 157px;
+    background: url('../images/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE.jpg');
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 176px;
+    background: #FCF9F8;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_logo {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #614b3e;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.logo_add {
+    font-size: 14px;
+    font-weight: 300;
+    color: #614b3e;
+    text-align: center
+}
+
+.line1 {
+position: absolute;
+width: 488.07px;
+height: 0px;
+left: 520.97px;
+top: 85px;
+border: 1px solid #614B3E;
+}
+
+/* Nav */
+.nav {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px;
+    color: #614b3e; 
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav_link:hover {
+    color: #A64C0F;
+}
+
+.line2 {
+position: absolute;
+width: 920px;
+height: 0px;
+left: 300.44px;
+top: 152px;
+background: #614B3E;
+border: 1px solid #614B3E;
+}
+
+/* About */
+.about {
+width: 100%;
+height: 1024px;
+background: white;
+font-weight: 300;
+font-size: 24px;
+line-height: 147.5%;
+text-align: center;
+letter-spacing: 0.085em;
+text-indent: 1px;
+font-feature-settings: 'tnum' on, 'lnum' on, 'liga' off;
+color: #614B3E;
+}
+
+.about_picture {
+width: 480px;
+height: 644px;
+margin-left:  118px;
+margin-top:  150px;
+background: url(../images/ec1a58575a32de8ce0515d0fd9d8d667.jpg);
+}
+
+.logo_bar {
+position: absolute;
+width: 1380px;
+height: 98px;
+left: 30px;
+top: 1970px;
+background: url(../images/JK-logo-bar_812.png);
+}
+
+.about_text {
+margin-top: 1090px;
+margin-right: 102px;
+position: absolute;
+width: 660px;
+height: 813px;
+right: 50px;
+top: 0px;
+}
+
+/* Course page */
+.courses {
+position: relative;
+width: 100%;
+height: 1024px;
+background: white;
+}
+
+.line6 {
+position: absolute;
+width: 10px;
+height: 970px;
+left: 472px;
+top: 0px;
+background: rgba(204, 182, 166, 0.35);
+}
+
+.line7 {
+position: absolute;
+width: 10px;
+height: 970px;
+left: 952.62px;
+top: 0px;
+background: rgba(204, 182, 166, 0.35);
+}
+
+.cg_course {
+position: absolute;
+width: 480px;
+height: 1024px;
+top: 0px;
+left: 0px;
+}
+
+.cgc_picture {
+position: absolute;
+width: 386px;
+height: 282px;
+left: 60px;
+background: url(../images/Rectangle%2026.png);
+border-radius: 16px;
+}
+
+.cgc_headline {
+position: absolute;
+width: 386px;
+height: 96px;
+left: 60px;
+top: 310px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.cgc_text {
+position: absolute;
+width: 380px;
+height: 275px;
+left: 60px;
+top: 420px;
+    list-style: disc;
+    list-style-position: inside;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.cgc_price {
+position: absolute;
+width: 300px;
+height: 42px;
+left: 143px;
+top: 775px;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.line3 {
+position: absolute;
+width: 354.01px;
+height: 0px;
+left: 76px;
+top: 420px;
+border: 1px solid #614B3E;
+}
+
+.sr_course {
+position: absolute;
+width: 480px;
+height: 1024px;
+top: 0px;
+left: 481px;
+}
+
+.src_picture {
+position: absolute;
+width: 386px;
+height: 282px;
+    top: 0px;
+left: 60px;
+background: url(../images/Rectangle%2027.png);
+border-radius: 16px;
+}
+
+.src_headline {
+position: absolute;
+width: 386px;
+height: 96px;
+left: 60px;
+    top: 310px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.src_text {
+    position: absolute;
+width: 380px;
+height: 275px;
+left: 60px;
+top: 420px;
+    list-style: disc;
+    list-style-position: inside;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+    
+.src_price {
+position: absolute;
+width: 300px;
+height: 42px;
+left: 143px;
+top: 775px;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;  
+}
+
+.buy_button {
+position: absolute;
+left: 30%;
+bottom: 85px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #CCB6A6 0%, #CCB6A6 49.38%, #8C7B73 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+
+.br_course {
+position: absolute;
+width: 480px;
+height: 1024px;
+top: 0px;
+left: 961px;
+}
+
+.brc_picture {
+position: absolute;
+width: 386px;
+height: 282px;
+    top: 0px;
+left: 60px;
+background: url(../images/Rectangle%2025.png);
+border-radius: 16px;
+}
+
+.brc_headline {
+position: absolute;
+width: 386px;
+height: 96px;
+left: 60px;
+    top: 310px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.brc_text {
+    position: absolute;
+width: 380px;
+height: 275px;
+left: 60px;
+top: 420px;
+    list-style: disc;
+    list-style-position: inside;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+/* Pricing list */
+.prices {
+position: relative;
+width: 100%;
+height: 1024px;
+background: white;
+}
+
+.line8 {
+position: absolute;
+width: 10px;
+height: 1068px;
+left: 705px;
+top: -44px;
+background: rgba(204, 182, 166, 0.35);
+}
+
+.line9 {
+position: absolute;
+width: 100%;
+height: 10px;
+left: 0px;
+top: -54px;
+background: rgba(204, 182, 166, 0.35);
+}
+
+.standart {
+position: absolute;
+width: 720px;
+height: 1024px;
+top: 0px;
+left: 0px;
+}
+
+.st_picture {
+position: absolute;
+width: 386px;
+height: 282px;
+left: 167px;
+background: url(../images/Rectangle%2032.png);
+border-radius: 16px;
+}
+
+.line4 {
+position: absolute;
+width: 356px;
+height: 0px;
+left: 182px;
+top: 360px;
+border: 1px solid #614B3E;
+}
+
+.st_headline {
+position: absolute;
+width: 462px;
+height: 38px;
+left: 129px;
+top: 320px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.st_text {
+position: absolute;
+width: 503px;
+height: 330px;
+left: 150px;
+top: 370px;
+     list-style: disc;
+    list-style-position: inside;
+font-weight: 300;
+font-size: 24px;
+line-height: 160%;
+align-items: center;
+letter-spacing: 0.085em;
+text-indent: 1px;
+font-feature-settings: 'tnum' on, 'lnum' on, 'liga' off;
+}
+
+.st_price {
+position: absolute;
+width: 270px;
+height: 42px;
+left: 260px;
+bottom: 189px;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.premium {
+position: absolute;
+width: 720px;
+height: 1024px;
+top: 0px;
+left: 721px;
+}
+
+.pr_picture {
+position: absolute;
+width: 386px;
+height: 282px;
+    top: 0px;
+left: 167px;
+background: url(../images/Rectangle%2031.png);
+border-radius: 16px;
+}
+
+.pr_headline {
+position: absolute;
+width: 462px;
+height: 38px;
+left: 129px;
+top: 320px;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.pr_text {
+position: absolute;
+width: 503px;
+height: 330px;
+left: 150px;
+top: 370px;
+     list-style: disc;
+    list-style-position: inside;
+font-weight: 300;
+font-size: 24px;
+line-height: 160%;
+align-items: center;
+letter-spacing: 0.085em;
+text-indent: 1px;
+font-feature-settings: 'tnum' on, 'lnum' on, 'liga' off;
+}
+    
+.pr_price {
+position: absolute;
+width: 270px;
+height: 42px;
+left: 260px;
+bottom: 189px;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.join_button {
+position: absolute;
+left: 33%;
+bottom: 65px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #CCB6A6 0%, #CCB6A6 49.38%, #8C7B73 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+/* Contact form */
+.contacts {
+    position: relative;
+    width: 100%;
+    height: 412px;
+    background: rgba(204, 182, 166, 0.25); 
+}
+
+.contactform_title {
+position: absolute;
+left: 560px; 
+width: 321.84px;
+height: 31.29px;
+left: 559.08px;
+top: 14px;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: justify;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+
+.contactform {
+    position: absolute;
+    left: 268px;
+    top: 97px;
+}
+
+.contactform_input {
+  position: absolute
+  color: #000;
+  width: 250px;
+  height: 40px;
+  line-height: 50px;
+  padding: 0 15px;
+  border: 0.745px solid #8C7B73;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.43);
+  transition: 0.4s;
+  box-sizing: border-box;
+    margin: 0px 50px 0px 0px;
+}
+
+.contactform_text {
+position: absolute;
+width: 904.43px;
+height: 130.26px;
+    left: 0px;
+    top: 80px;
+background: rgba(255, 255, 255, 0.43);
+border: 0.745px solid #8C7B73;
+box-sizing: border-box;
+}
+
+.contactform_button {
+position: absolute;
+left: 352px;
+    top: 220px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #CCB6A6 0%, #CCB6A6 49.38%, #8C7B73 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+/* Links */
+.links {
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+
+.site_name {
+position: absolute;
+width: 251.07px;
+height: 18px;
+left: 585.5px;
+top: 82px;
+font-weight: 500;
+font-size: 18px;
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: 0.085em;
+text-indent: 0.745px;
+}
+
+.vk {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 668px;
+top: 32px;
+background: url(../images/vk_icon.png)  
+}
+
+.instagram {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 708px;
+top: 32px;
+background: url(../images/inst_icon.png)  
+}
+
+.telegram {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 740px;
+top: 32px;
+background: url(../images/telega_icon.png)
+}
